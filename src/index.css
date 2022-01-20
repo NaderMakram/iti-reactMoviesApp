@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-fav{
+  width: 20px;
+  height: 20px;
+  background: rgb(162, 162, 162);
+}
+
+.btn-fav.active{
+  background: gold;
+}
+
+.card-group{
+  justify-content: center !important;
+}
+
+.card{
+  /* width: 90% !important; */
+  width: 90% !important;
+  max-width: 350px !important;
+  flex: unset !important;
+  /* min-width: 400px !important; */
+  margin: 2rem;
+}
